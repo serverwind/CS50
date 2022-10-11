@@ -1,0 +1,76 @@
+$lightgray: lightgray;
+$red: #d93025;
+
+$medium: 16px;
+
+html, body {
+	margin: 0;
+}
+
+nav {
+	text-align: right;
+	padding: 10px;
+
+	a {
+		margin-right: 5px;
+		text-decoration: none;
+		font-size: $medium;
+	}
+
+	.mini-logo {
+		text-align: left;
+		
+		img {
+			width: 100px;
+		}
+	}
+}
+
+.nav-adv {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+main {
+
+	.logo {
+		text-align: center;
+		margin-top: 4em;
+		margin-bottom: 2em;
+	}
+
+	form {
+		text-align:center;
+
+		.search-field {
+			display: block;
+			margin: 0 auto;
+			border: 1px solid $lightgray;
+			border-radius: 20px;
+			width: 80%;
+			height: 40px;
+			padding-left: 20px;
+		}
+
+		.submit {
+			margin-top: 20px;
+			border: 0;
+			padding: 10px;
+			font-size: $medium;
+		}
+	}
+
+	h1 {
+		color: $red;
+		font-weight: lighter;
+		margin-left: 40px;
+	}
+
+	hr {
+		background-color: $lightgray;
+		height: 1px;
+		border:0;
+		margin-bottom: 40px;
+	}
+}

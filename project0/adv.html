@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>CS50 Project 0 - Google Search (Advanced)</title>
+</head>
+<body>
+	<nav class='nav-adv'>
+		<div class='mini-logo'>
+			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+		</div>
+		<div class='links'>
+			<a href="/">Google Search</a>
+			<a href="images.html">Images</a>
+		</div>
+	</nav>
+	<main>
+		<h1>Advanced Search</h1>
+		<hr>
+		<p>Find pages with...</p>
+		<form action="https://www.google.com/search">
+			<label>all these words:</label>
+			<input type="text" name='as_q'>
+			<label>this exact word or phrase:</label>
+			<input type="text" name='as_epq'>
+			<label>any of these words:</label>
+			<input type="text" name='as_oq'>
+			<label>none of these words:</label>
+			<input type="text" name='as_eq'>
+			<input type="submit" value='Advanced search'>
+		</form>
+	</main>
+</body>
+</html>
