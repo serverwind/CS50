@@ -15,7 +15,8 @@ nav .mini-logo {
   text-align: left;
 }
 nav .mini-logo img {
-  width: 100px;
+  width: 80px;
+  padding-top: 5px;
 }
 
 .nav-adv {
@@ -29,7 +30,7 @@ main .logo {
   margin-top: 4em;
   margin-bottom: 2em;
 }
-main form {
+main .search-form {
   text-align: center;
 }
 main form .search-field {
@@ -37,7 +38,7 @@ main form .search-field {
   margin: 0 auto;
   border: 1px solid lightgray;
   border-radius: 20px;
-  width: 80%;
+  width: 65%;
   height: 40px;
   padding-left: 20px;
 }
@@ -57,6 +58,27 @@ main hr {
   height: 1px;
   border: 0;
   margin-bottom: 40px;
+}
+main .form-wrapper {
+  margin-left: 40px;
+}
+main .form-wrapper .input-wrapper {
+  display: grid;
+  grid-template-columns: 200px 600px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+main .form-wrapper .input-wrapper input {
+  height: 24px;
+  border: 1px solid lightgray;
+}
+main .form-wrapper .adv-submit {
+  background-color: #4788ef;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

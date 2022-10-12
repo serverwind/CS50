@@ -1,5 +1,7 @@
 $lightgray: lightgray;
 $red: #d93025;
+$blue: #4788ef;
+$white: white;
 
 $medium: 16px;
 
@@ -21,7 +23,8 @@ nav {
 		text-align: left;
 		
 		img {
-			width: 100px;
+			width: 80px;
+			padding-top: 5px;
 		}
 	}
 }
@@ -40,15 +43,18 @@ main {
 		margin-bottom: 2em;
 	}
 
+	.search-form {
+		text-align: center;
+	}
+
 	form {
-		text-align:center;
 
 		.search-field {
 			display: block;
 			margin: 0 auto;
 			border: 1px solid $lightgray;
 			border-radius: 20px;
-			width: 80%;
+			width: 65%;
 			height: 40px;
 			padding-left: 20px;
 		}
@@ -72,5 +78,30 @@ main {
 		height: 1px;
 		border:0;
 		margin-bottom: 40px;
+	}
+
+	.form-wrapper {
+		margin-left: 40px;
+
+		.input-wrapper {
+			display: grid;
+			grid-template-columns: 200px 600px;
+			align-items: center;
+			margin-bottom: 15px;
+
+			input {
+				height: 24px;
+				border: 1px solid $lightgray;
+			}
+		}
+
+		.adv-submit {
+			background-color: $blue;
+			border: 0;
+			border-radius: 5px;
+			padding: 10px;
+			color: $white;
+			font-weight: bold;
+		}
 	}
 }
